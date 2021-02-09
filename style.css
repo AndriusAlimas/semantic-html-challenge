@@ -1,5 +1,4 @@
 /* CSS files add styling rules to your content */
-
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
@@ -8,4 +7,20 @@ body {
 h1 {
   font-style: italic;
   color: #373fff;
+}
+table, th, td {
+  border: 1px solid purple;
+}
+th , td {
+  padding: 10px;
+}
+table{
+  width: 100%;
+  
+}
+tbody{
+  background-image: url(./assets/noise.png);
+}
+tbody tr:nth-child(odd){
+  background-color: purple;
 }
