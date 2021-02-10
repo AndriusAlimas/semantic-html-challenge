@@ -2,6 +2,7 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  font-size: 0.8em;
 }
 
 h1 {
@@ -20,10 +21,18 @@ table{
 }
 thead,tfoot{
   font-family: 'Rock Salt', cursive;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 0.6em;
+  background-image: url(./assets/leopardskin.jpg);
 }
 tbody{
   background-image: url(./assets/noise.png);
 }
 tbody tr:nth-child(odd){
   background-color: purple;
+}
+caption{
+  text-align: left;
+  font-size: 1.3em;
 }
